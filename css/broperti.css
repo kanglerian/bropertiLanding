@@ -5,6 +5,20 @@
 
 /* Navbar */
 
+.navbar {
+    padding: 30px 0px;
+}
+
+.nav-link {
+    color: #9094A2;
+    margin-right: 15px;
+}
+
+.active {
+    color: #83D987 !important;
+    font-weight: 600;
+}
+
 
 /* Banner */
 
@@ -22,7 +36,7 @@
     position: relative;
     color: black;
     background-color: white;
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-radius: 0.5em;
     bottom: 0px;
     left: 0px;
@@ -50,7 +64,21 @@
     z-index: 5;
 }
 
-.btn-cta-satu {
-    margin-left: 15px;
+.banner p {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.btn-cta {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: #132039;
+    background-color: #83D987;
     padding: 10px 20px;
+}
+
+.btn-cta:hover {
+    color: #132039;
+    background-color: #6EC171;
 }
