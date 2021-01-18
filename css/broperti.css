@@ -56,12 +56,14 @@
 }
 
 .banner h1 {
+    position: relative;
     font-weight: 600;
     font-size: 48px;
     z-index: 5;
 }
 
 .banner h6 {
+    position: relative;
     margin-top: 30px;
     margin-bottom: 50px;
     font-weight: 400;
@@ -70,6 +72,7 @@
 }
 
 .banner p {
+    position: relative;
     margin: 5px 0px;
     font-size: 14px;
 }
@@ -100,6 +103,41 @@
 }
 
 .card-detail {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    padding-top: 15px;
+    border-radius: 0.7em;
     width: 300px;
+    background-color: white;
+}
+
+.card-discount {
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 0.7em;
     background-color: yellow;
+    font-weight: 600;
+}
+
+.house-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.house-address {
+    font-size: 16px;
+    font-weight: 200px;
+}
+
+.house-price {
+    color: #0A9F82;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
